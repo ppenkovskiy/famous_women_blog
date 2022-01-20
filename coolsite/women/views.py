@@ -4,21 +4,19 @@ from .models import *
 from .forms import *
 
 menu = [{'title': "About page", "url_name": "about"},
-        {'title': "Add a blog", "url_name": "add_page"},
-        {'title': "Feedback", "url_name": "contact"},
+        {'title': "Add article", "url_name": "add_page"},
+        {'title': "Contacts", "url_name": "contact"},
         {'title': "Login", "url_name": "login"},
         ]
 
 def index(request):
     posts = Women.objects.all()
-
     context = {
                'posts': posts,
                'menu': menu,
                'title': 'Home page',
                'cat_selected': 0
     }
-
     return render(request, 'women/index.html', context=context)
 
 def about(request):
@@ -29,13 +27,10 @@ def pageNotFound(request, exception):
 
 def addpage(request):
     if request.method == 'POST':
-        form = AddPostForm(request.POST)
+        form = AddPostForm(request.POST, request.FILES)
         if form.is_valid():
-            try:
-                Women.objects.create(**form.cleaned_data)
-                return redirect('home')
-            except:
-                form.add_error(None, 'Post add error')
+            form.save()
+            return redirect('home')
     else:
         form = AddPostForm()
     return render(request, 'women/addpage.html', {'form': form, 'menu': menu, 'title': 'Add article'})
