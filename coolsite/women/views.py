@@ -1,4 +1,5 @@
 from django.contrib.auth.decorators import login_required
+from django.core.paginator import Paginator
 from django.http import HttpResponseNotFound
 from django.shortcuts import render
 from django.urls import reverse_lazy
@@ -22,7 +23,11 @@ class WomenHome(DataMixin, ListView):
         return Women.objects.filter(is_published=True)
 
 def about(request):
-    return render(request, 'women/about.html', {'menu': menu, 'title': 'About page'})
+    contact_list = Women.objects.all()
+    paginator = Paginator(contact_list, 3)
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+    return render(request, 'women/about.html', {'page_obj': page_obj, 'menu': menu, 'title': 'About page'})
 
 def pageNotFound(request, exception):
     return HttpResponseNotFound('<h1>Page not found.</h1>')
