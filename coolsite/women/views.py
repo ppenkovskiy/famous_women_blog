@@ -1,5 +1,5 @@
-from django.http import HttpResponse, HttpResponseNotFound, Http404
-from django.shortcuts import redirect, render, get_object_or_404
+from django.http import HttpResponseNotFound
+from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView
 
@@ -34,7 +34,7 @@ def about(request):
 
 
 def pageNotFound(request, exception):
-    return HttpResponseNotFound('<h1>Page not found.</h1><h1>Please, try again.</h1>')
+    return HttpResponseNotFound('<h1>Page not found.</h1>')
 
 class AddPage(CreateView):
     form_class = AddPostForm

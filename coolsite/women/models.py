@@ -20,7 +20,7 @@ class Women(models.Model):
     class Meta:
         verbose_name = 'Famous women'
         verbose_name_plural = 'Famous women'
-        ordering = ['time_create', 'title']
+        # ordering = ['title']
 
 class Category(models.Model):
     name = models.CharField(max_length=100, db_index=True)
