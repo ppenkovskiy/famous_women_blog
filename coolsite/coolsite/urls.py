@@ -7,6 +7,7 @@ from women.views import pageNotFound
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('women.urls')),
+    path('captcha/', include('captcha.urls')),
 ]
 
 if settings.DEBUG:
