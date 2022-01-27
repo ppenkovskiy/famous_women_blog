@@ -1,10 +1,9 @@
 from django.db.models import *
-from django.core.cache import cache
 from .models import *
 
 menu = [{'title': "About", "url_name": "about"},
         {'title': "Add article", "url_name": "add_page"},
-        {'title': "Contacts", "url_name": "contact"},
+        {'title': "Contact us", "url_name": "contact"},
         ]
 
 

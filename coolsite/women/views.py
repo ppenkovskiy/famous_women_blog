@@ -22,15 +22,14 @@ class WomenHome(DataMixin, ListView):
     def get_queryset(self):
         return Women.objects.filter(is_published=True).select_related('cat')
 
+
 def about(request):
-    contact_list = Women.objects.all()
-    paginator = Paginator(contact_list, 3)
-    page_number = request.GET.get('page')
-    page_obj = paginator.get_page(page_number)
-    return render(request, 'women/about.html', {'page_obj': page_obj, 'menu': menu, 'title': 'About page'})
+    return render(request, 'women/about.html', {'menu': menu, 'title': 'About page'})
+
 
 def pageNotFound(request, exception):
-    return HttpResponseNotFound('<h1>Page not found.</h1>')
+    return HttpResponseNotFound('<h1>Page not found. Please enter another URL.</h1>')
+
 
 class AddPage(LoginRequiredMixin, DataMixin, CreateView):
     form_class = AddPostForm
@@ -56,6 +55,7 @@ class ShowPost(DataMixin, DetailView):
         c_def = self.get_user_context(title=context['post'])
         return dict(list(context.items()) + list(c_def.items()))
 
+
 class WomenCategory(DataMixin, ListView):
     model = Women
     template_name = 'women/index.html'
@@ -72,6 +72,7 @@ class WomenCategory(DataMixin, ListView):
                                       cat_selected=c.pk)
         return dict(list(context.items()) + list(c_def.items()))
 
+
 class RegisterUser(DataMixin, CreateView):
     form_class = RegisterUserForm
     template_name = 'women/register.html'
@@ -87,6 +88,7 @@ class RegisterUser(DataMixin, CreateView):
         login(self.request, user)
         return redirect('home')
 
+
 class LoginUser(DataMixin, LoginView):
     form_class = LoginUserForm
     template_name = 'women/login.html'
@@ -99,9 +101,11 @@ class LoginUser(DataMixin, LoginView):
     def get_success_url(self):
         return reverse_lazy('home')
 
+
 def logout_user(request):
     logout(request)
     return redirect('login')
+
 
 class ContactFormView(DataMixin, FormView):
     form_class = ContactForm
@@ -110,7 +114,7 @@ class ContactFormView(DataMixin, FormView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        c_def = self.get_user_context(title="Contact us")
+        c_def = self.get_user_context(title="Enter your details, we will contact you")
         return dict(list(context.items()) + list(c_def.items()))
 
     def form_valid(self, form):
