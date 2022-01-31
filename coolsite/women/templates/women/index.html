@@ -7,7 +7,7 @@
 	<li>
 		<div class="acticle-panel">
 			<p class="first">Category: {{p.cat}}</p>
-			<p class="last">Date: {{p.time_update|date:"d-m-Y H:i:s"}}</p>
+			<p class="last">Date: {{p.time_update|date:"d-m-Y"}}</p>
 		</div>
 		{% if p.photo %}
 			<p><img class="img=article-left thumb" src="{{p.photo.url}}" width='300'></p>

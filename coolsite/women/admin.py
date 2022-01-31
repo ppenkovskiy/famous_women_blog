@@ -1,6 +1,5 @@
 from django.contrib import admin
 from django.utils.safestring import mark_safe
-
 from .models import *
 
 class WomenAdmin(admin.ModelAdmin):
@@ -23,8 +22,9 @@ class CategoryAdmin(admin.ModelAdmin):
     search_fields = ('name',)
     prepopulated_fields = {'slug': ('name',)}
 
+
 admin.site.register(Women, WomenAdmin)
 admin.site.register(Category, CategoryAdmin)
 
-admin.site.site_title = 'Admin panel of site about women'
-admin.site.site_header = 'Admin panel of site about women'
+admin.site.site_title = "Pavel Petrovskiy's administration panel"
+admin.site.site_header = "Pavel Petrovskiy's administration panel"

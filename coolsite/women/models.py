@@ -18,8 +18,8 @@ class Women(models.Model):
         return reverse('post', kwargs={'post_slug': self.slug})
 
     class Meta:
-        verbose_name = 'Famous women'
-        verbose_name_plural = 'Famous women'
+        verbose_name = 'Women'
+        verbose_name_plural = 'Women'
         ordering = ['id']
 
 class Category(models.Model):

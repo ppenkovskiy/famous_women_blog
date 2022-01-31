@@ -9,6 +9,7 @@ from .forms import *
 from .utils import *
 from django.contrib.auth.mixins import LoginRequiredMixin
 
+
 class WomenHome(DataMixin, ListView):
     model = Women
     template_name = 'women/index.html'
