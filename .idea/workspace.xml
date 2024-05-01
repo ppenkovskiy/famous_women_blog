@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ee97737-84f5-4f92-a0d0-eb21c95d45cd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/women_blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/women/migrations/0005_alter_women_options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/django_project_selfedu.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/coolsite/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/coolsite/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/coolsite/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/coolsite/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/coolsite/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/media/photos/2022/01/21/elle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/media/photos/2022/01/21/imgonline-com-ua-Resize-WM5Cxl0CfUebiL0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/media/photos/2022/01/21/ri.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/media/photos/2022/01/22/imgonline-com-ua-convertgjwEg5DllRQ5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/media/photos/2022/01/22/jen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/media/photos/2022/01/26/imgonline-com-ua-Resize-AIru1kXdbh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/media/photos/2022/01/26/imgonline-com-ua-Resize-IQtT9ASztcqK.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/media/photos/2022/01/26/imgonline-com-ua-Resize-s4szSsXwwk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/media/photos/2022/01/26/imgonline-com-ua-Resize-tjNvFmgnKZXDOv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/media/photos/2022/01/26/imgonline-com-ua-Resize-xyfhxN7U9AXYz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/media/photos/2022/01/26/imgonline-com-ua-Resize-zQ9WBCIMNRsY4m7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/migrations/0002_auto_20220122_0733.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/migrations/0003_alter_women_options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/migrations/0004_alter_women_options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/static/women/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/static/women/images/blockquote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/static/women/images/btn_yt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/static/women/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/static/women/images/main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/static/women/images/share_yt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/static/women/images/smallmenu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/templates/women/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/templates/women/addpage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/templates/women/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/templates/women/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/templates/women/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/templates/women/list_categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/templates/women/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/templates/women/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/templates/women/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/templatetags/women_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolsite/women/views.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2frKtlKRpEc7V315EIbbV7E2WnK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/p/Desktop/women_blog",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="women_blog" type="Python.DjangoServer" factoryName="Django server">
+      <module name="women_blog" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ee97737-84f5-4f92-a0d0-eb21c95d45cd" name="Changes" comment="" />
+      <created>1714553974260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714553974260</updated>
+      <workItem from="1714553975296" duration="468000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
